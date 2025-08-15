@@ -58,9 +58,9 @@ AMPLS addresses these challenges by integrating advanced AI models into a robust
 
 4. Technical Deep Dive
 4.1. Unity 3D Simulation Environment
-Our journey began in a meticulously crafted, high-fidelity Unity 3D simulation. This wasn't merely a game; it was a precise digital twin of the real-world maritime environment. We developed detailed models of the USS Lassen (DDG-82) and our helicopter, incorporating realistic physics for aerodynamics, ocean dynamics (waves, wind, currents), and ship motion. This virtual proving ground allowed us to safely conduct millions of landing attempts in extreme, reproducible conditions that would be impossible or prohibitively expensive in the real world.
+Our journey began in a meticulously crafted, high-fidelity Unity 3D simulation. This wasn't merely a game; it was a precise digital twin of the real-world maritime environment. We developed detailed models of the USS Lassen (DDG-82) and our Sikorsky MH60 r helicopter, incorporating realistic physics for aerodynamics, ocean dynamics (waves, wind, currents), and ship motion. This virtual proving ground allowed us to safely conduct millions of landing attempts in extreme, reproducible conditions that would be impossible or prohibitively expensive in the real world.
 
-# Screenshot from simulation having fully developed sea with USS Lassen (82) an Arleigh Burke Destroyer with  Sikorsky MH60 r Helicopter in Unity 3d version 6
+# Screenshot from simulation having fully developed sea with USS Lassen DDG (82) an Arleigh Burke Destroyer with  Sikorsky MH60 r Helicopter in Unity 3d version 6
 
 <img width="2559" height="1495" alt="Image" src="https://github.com/user-attachments/assets/7f39a3d3-a29c-40ec-a34a-de2ed237050b" />
 
