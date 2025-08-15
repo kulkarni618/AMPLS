@@ -3,8 +3,7 @@ AMPLS: Autonomous helicopter landing on naval vessels in severe sea states (6.5-
 
 # Advanced Maritime Precision Landing System (AMPLS)
 
-Project Banner Image Here
-(Suggestion: A high-quality, impactful image or graphic that visually represents AMPLS – perhaps a stylized helicopter landing on a ship in stormy conditions, with a subtle hint of AI/data visualization. This will be the first thing visitors see.)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6a33c702-50a9-465d-ad6c-54871e8be970" />
 
 Table of Contents
 
