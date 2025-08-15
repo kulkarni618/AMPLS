@@ -1,7 +1,7 @@
 # AMPLS
 AMPLS: Autonomous helicopter landing on naval vessels in severe sea states (6.5-7). Built in Unity 3D with ML-Agents (IL/RL), it uses LSTM for ship motion prediction &amp; quiescent periods, ensuring precise 3-point touchdowns. Models exported in ONNX for real-world integration. Revolutionizing maritime safety.
 
-# Advanced Maritime Precision Landing System (AMPLS)
+# Autonomous Maritime Precision Landing System (AMPLS)
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6a33c702-50a9-465d-ad6c-54871e8be970" />
 
