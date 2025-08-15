@@ -71,7 +71,7 @@ One of the most critical aspects of safe shipboard landings is timing. Even in t
 
 To precisely identify and predict these elusive windows of calm, AMPLS incorporates an advanced Long Short-Term Memory (LSTM) neural network model. LSTMs are a type of recurrent neural network particularly adept at processing and learning from sequential data, making them ideal for predicting time-series data like ship motion. Our LSTM model continuously analyzes the ship's real-time motion data (heave, pitch, and roll) and, with remarkable accuracy, forecasts these movements over an 8-second horizon. This foresight is crucial, as a minimum of six seconds is necessary for a helicopter to execute a safe landing maneuver. By predicting these quiescent periods, AMPLS can guide the helicopter to initiate its final approach only when the deck is most stable, significantly enhancing safety and efficiency.
 
-(Place a visualization of your LSTM prediction here. This could be a graph showing predicted ship motion (heave, pitch, roll) over time, with a highlighted "quiescent period" window. Alternatively, a GIF showing the prediction in action, perhaps with a real-time plot updating as the simulation runs.)
+
 
 4.3. Learning Paradigms with ML-Agents
 With the ability to predict the ship's movements, the next step was to teach our AI how to fly and land with unparalleled precision. We leveraged Unity's ML-Agents toolkit to implement a powerful two-stage learning process:
@@ -79,14 +79,14 @@ With the ability to predict the ship's movements, the next step was to teach our
 Imitation Learning (IL)
 We first employed Imitation Learning (IL). In this phase, our AI agent observed and learned from expert human demonstrations within the simulation. We meticulously recorded countless successful landings performed by skilled virtual pilots. The agent's neural network was trained to mimic these expert behaviors, allowing it to grasp the fundamental nuances of helicopter control, approach trajectories, and dynamic ship compensation. This phase provided the foundational "muscle memory" for the AI, teaching it the art of a safe, controlled descent. It's akin to teaching a complex skill by showing, rather than just telling.
 
-(Place a split-screen GIF or short video here. On one side, show a human pilot controlling the helicopter in the simulation. On the other, show the AI agent mimicking these movements, demonstrating the learning process.)
+
 
 Reinforcement Learning (RL)
 However, to truly achieve "beyond human" capabilities in Sea State 6.5-7, mere imitation was not enough. The unpredictable chaos of extreme weather demanded a level of adaptability and optimization that only true learning could provide. This led us to the Reinforcement Learning (RL) phase.
 
 Building upon the knowledge gained from IL and armed with the LSTM's predictive power, our agent was unleashed into the simulated storms. Through millions of trials and errors, guided by carefully crafted reward functions (where successful maneuvers earned "points" and errors incurred "penalties"), the AI began to discover novel control strategies. It learned to anticipate the ship's violent pitches and rolls, to compensate for sudden wind gusts, and to execute landings with a precision and resilience that surpassed even the most seasoned human pilots. The agent wasn't just mimicking; it was innovating, finding optimal solutions in scenarios where human intuition might falter. It learned to dance with the waves, not just fight them.
 
-(Place a dynamic GIF or short video here showing the helicopter mid-landing in a stormy simulated environment. Focus on the precision of the approach and the stability of the helicopter despite the chaotic surroundings. Visual indicators of wind or ship motion could be overlaid.)
+
 
 4.4. The Critical Touchdown: Ensuring a Three-Point Landing
 The final moments of a helicopter landing are arguably the most critical. Unlike fixed-wing aircraft, helicopters often have three landing gear points (typically two main gears and one nose/tail gear). For a safe and stable landing, it is absolutely imperative that all three landing gears touch down simultaneously and level.
@@ -103,12 +103,12 @@ Loss of Control: Any damage or instability upon touchdown can quickly escalate i
 
 AMPLS's advanced control algorithms, meticulously informed by the LSTM's predictions and refined through RL, are specifically designed to ensure this perfect, three-point touchdown, minimizing stress on the airframe and maximizing safety.
 
-(Place a close-up render, screenshot, or short video here showing the helicopter's landing gear making contact with the deck, emphasizing a perfectly level, simultaneous touchdown. A diagram illustrating the forces during a correct vs. incorrect touchdown could also be very effective.)
+
 
 4.5. Model Export: ONNX Format
 The culmination of this intensive training is AMPLS: a robust, intelligent agent capable of navigating the most treacherous maritime conditions. To ensure its real-world applicability and efficient deployment, the trained AI model is then exported into the industry-standard ONNX (Open Neural Network Exchange) format. This allows for seamless integration into various hardware platforms, paving the way for future real-world testing and eventual operational use, ensuring that our research can transition from simulation to practical application.
 
-(Place a visual representation of the ONNX export process here. This could be a simplified diagram showing the AI model being converted into a portable format, or a screenshot of the ML-Agents export interface highlighting the ONNX export option.)
+
 
 5. Key Features & Advantages
 Autonomous Operation: Enables helicopters to land without direct human piloting in extreme conditions.
@@ -128,7 +128,7 @@ High-Fidelity Simulation: Developed and tested in a realistic Unity 3D environme
 Deployment Ready: Exported to ONNX format for broad compatibility and future real-world integration.
 
 6. Getting Started (Simulation)
-(This section is conceptual, assuming you would provide instructions for someone to run your simulation if it were publicly available. Adjust as needed.)
+
 
 To run the AMPLS simulation environment and observe the autonomous landing agent:
 
@@ -160,7 +160,7 @@ Navigate to the Assets/Scenes/ folder and open the AMPLS_Landing_Scene.
 
 Press the "Play" button in the Unity Editor.
 
-(Optional: If you have a pre-trained model to load, provide instructions here.)
+(Optional: If you have a pre-trained model to load, you have a seperate section in behavior paramaters section in inference mode in inspector tab.)
 
 Observe: The simulation will begin, and the autonomous helicopter agent will attempt landings on the dynamically moving ship.
 
@@ -181,13 +181,11 @@ Long-Term Autonomy: Researching methods for continuous learning and adaptation i
 We welcome contributions to the AMPLS project! If you're interested in improving the simulation, enhancing the AI models, or exploring new features, please refer to our(CONTRIBUTING.md) for guidelines.
 
 9. License
-This project is licensed under the(LICENSE) - see the LICENSE file for details.
+This project is licensed under the(LICENSE) 
 
 10. Contact
 For any inquiries or collaborations, please reach out to:
 
 Your Name/Team Name:
 
-Project Website (Optional): [Link to your project website/portfolio]
-
-LinkedIn (Optional): [Link to your LinkedIn profile]
+LinkedIn (Optional): [www.linkedin.com/in/mandar-kulkarni-78474918a]
