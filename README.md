@@ -49,7 +49,7 @@ Landing a helicopter on a ship's flight deck is one of the most complex and haza
 
 In such conditions, the ship's flight deck becomes a violently pitching, rolling, and heaving target. Traditional methods, even with advanced systems like the 'bear trap' (RAST), still require human intervention at critical junctures. Brave flight deck crews are exposed to immense danger, pushing the very limits of human endurance and safety. The unpredictable motion, reduced visibility from spray, and the sheer physical demands make precise control incredibly difficult for human pilots.
 
-![Image](https://github.com/user-attachments/assets/35482eb6-9e65-433e-8723-e42a52cfff83)
+![Image](https://github.com/user-attachments/assets/35482eb6-9e65-433e-8723-e42a52cfff83)                ![Image](https://github.com/user-attachments/assets/f616d3cf-52ed-480f-8313-0672b9b6fcad)
 
 Our audacious goal with AMPLS was to develop an autonomous system that could not only match, but surpass human precision, ensuring safe landings even when conditions render human intervention too risky.
 
