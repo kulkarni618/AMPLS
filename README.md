@@ -64,7 +64,7 @@ Screenshot from simulation having fully developed sea wuth USS Lassen (82) an Ar
 
 <img width="2559" height="1495" alt="Image" src="https://github.com/user-attachments/assets/7f39a3d3-a29c-40ec-a34a-de2ed237050b" />
 
-
+<img width="15360" height="8640" alt="Image" src="https://github.com/user-attachments/assets/ffe4399e-1f1e-40f7-91f1-c071de6f5cf1" />
 
 4.2. Predicting the Calm: LSTM for Quiescent Periods
 One of the most critical aspects of safe shipboard landings is timing. Even in the most violent storms, there are fleeting moments when the ship momentarily achieves a relatively stable state – these are known as "quiescent periods." During these precious intervals, the amplitude of the ship's motion (its heave, pitch, and roll) significantly decreases, providing the most favorable conditions for a safe touchdown. For a helicopter to land safely, these motions must fall within strict limits, such as a roll of 2.5°, a pitch of 1.5°, and a vertical velocity (heave) of 1.0 m/s.
