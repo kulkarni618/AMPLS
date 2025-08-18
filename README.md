@@ -42,23 +42,23 @@ Model Export: ONNX Format
 10. Contact
 
 1. Overview
-The Advanced Maritime Precision Landing System (AMPLS) is an innovative autonomous solution designed to enable helicopters to perform safe and precise landings on naval vessels, even in extremely challenging sea conditions (Sea State 6.5-7). Leveraging cutting-edge AI techniques, including Long Short-Term Memory (LSTM) networks for ship motion prediction, and a combination of Imitation Learning (IL) and Reinforcement Learning (RL) within a high-fidelity Unity 3D simulation, AMPLS aims to achieve "beyond human" capabilities, significantly enhancing maritime safety and operational resilience.
+The Advanced Maritime Precision Landing System (AMPLS) is an innovative autonomous solution designed to enable helicopters to perform safe and precise landings on naval vessels, even in extremely challenging sea conditions (Sea State 6.5-7). Leveraging cutting-edge AI techniques, including Long Short-Term Memory (LSTM) networks for ship motion prediction, and a combination of Imitation Learning (IL) and Reinforcement Learning (RL) within a high-fidelity Unity 3D simulation, AMPLS aims to achieve autonomous capabilities, significantly enhancing maritime safety and operational resilience.
 
 2. The Challenge: Conquering the High Seas
-Landing a helicopter on a ship's flight deck is one of the most complex and hazardous maneuvers in aviation. This challenge is dramatically amplified in severe weather, where the ocean churns into a furious Sea State 6.5 or 7, characterized by towering waves (20-30 feet) and near-gale force winds.
+Landing a helicopter on a ship's flight deck is one of the most complex and hazardous maneuvers in aviation. This challenge is dramatically amplified in severe weather, where the ocean churns into a furious Sea State 6.5 or 7, characterized by towering waves (20-30 feet) and near-gale force winds. 
 
 In such conditions, the ship's flight deck becomes a violently pitching, rolling, and heaving target. Traditional methods, even with advanced systems like the 'bear trap' (RAST), still require human intervention at critical junctures. Brave flight deck crews are exposed to immense danger, pushing the very limits of human endurance and safety. The unpredictable motion, reduced visibility from spray, and the sheer physical demands make precise control incredibly difficult for human pilots.
 
 ![Image](https://github.com/user-attachments/assets/35482eb6-9e65-433e-8723-e42a52cfff83)                ![Image](https://github.com/user-attachments/assets/f616d3cf-52ed-480f-8313-0672b9b6fcad)
 
-Our audacious goal with AMPLS was to develop an autonomous system that could not only match, but surpass human precision, ensuring safe landings even when conditions render human intervention too risky.
+My audacious goal with AMPLS was to develop an autonomous system that could not only match, but surpass human precision, ensuring safe landings even when conditions render human intervention too risky. Although in Defence world even though how good ai is end descision is taken by a human, so this system ai + human together will give best results as this system is made to make landings way easier, like you have ai there to help pilot in that situation.
 
 3. Our Solution: AMPLS
-AMPLS addresses these challenges by integrating advanced AI models into a robust simulation environment. Our system learns to predict ship movements, identify optimal landing windows, and execute flawless, stable touchdowns, all while adapting to the chaotic dynamics of the open ocean.
+AMPLS addresses these challenges by integrating advanced AI models into a robust simulation environment. My system learns to predict ship movements, identify optimal landing windows, and execute, stable touchdowns, all while adapting to the chaotic dynamics of the open ocean.
 
 4. Technical Deep Dive
 4.1. Unity 3D Simulation Environment
-Our journey began in a meticulously crafted, high-fidelity Unity 3D simulation. This wasn't merely a game; it was a precise digital twin of the real-world maritime environment. We developed detailed models of the USS Lassen (DDG-82) and our Sikorsky MH60 r helicopter, incorporating realistic physics for aerodynamics, ocean dynamics (waves, wind, currents), and ship motion. This virtual proving ground allowed us to safely conduct millions of landing attempts in extreme, reproducible conditions that would be impossible or prohibitively expensive in the real world.
+My journey began in a meticulously crafted, high-fidelity Unity 3D simulation. This wasn't merely a game; it was a precise digital twin of the real-world maritime environment. We developed detailed models of the USS Lassen (DDG-82) and our Sikorsky MH60 r helicopter, incorporating realistic physics for aerodynamics, ocean dynamics (waves, wind, currents), and ship motion. This virtual proving ground allowed us to safely conduct millions of landing attempts in extreme, reproducible conditions that would be impossible or prohibitively expensive in the real world.
 
 # Screenshot from simulation having fully developed sea with USS Lassen DDG (82) an Arleigh Burke Destroyer with  Sikorsky MH60 r Helicopter in Unity 3d version 6
 
@@ -77,12 +77,12 @@ To precisely identify and predict these elusive windows of calm, AMPLS incorpora
 With the ability to predict the ship's movements, the next step was to teach our AI how to fly and land with unparalleled precision. We leveraged Unity's ML-Agents toolkit to implement a powerful two-stage learning process:
 
 Imitation Learning (IL)
-We first employed Imitation Learning (IL). In this phase, our AI agent observed and learned from expert human demonstrations within the simulation. We meticulously recorded countless successful landings performed by skilled virtual pilots. The agent's neural network was trained to mimic these expert behaviors, allowing it to grasp the fundamental nuances of helicopter control, approach trajectories, and dynamic ship compensation. This phase provided the foundational "muscle memory" for the AI, teaching it the art of a safe, controlled descent. It's akin to teaching a complex skill by showing, rather than just telling.
+I first employed Imitation Learning (IL). In this phase, my AI agent observed and learned from expert human demonstrations within the simulation. I meticulously recorded countless successful landings performed by skilled virtual pilots. The agent's neural network was trained to mimic these expert behaviors, allowing it to grasp the fundamental nuances of helicopter control, approach trajectories, and dynamic ship compensation. This phase provided the foundational "muscle memory" for the AI, teaching it the art of a safe, controlled descent. It's akin to teaching a complex skill by showing, rather than just telling.
 
 
 
 Reinforcement Learning (RL)
-However, to truly achieve "beyond human" capabilities in Sea State 6.5-7, mere imitation was not enough. The unpredictable chaos of extreme weather demanded a level of adaptability and optimization that only true learning could provide. This led us to the Reinforcement Learning (RL) phase.
+However, to truly achieve autonomous capabilities in Sea State 6.5-7, mere imitation was not enough. The unpredictable chaos of extreme weather demanded a level of adaptability and optimization that only true learning could provide. This led us to the Reinforcement Learning (RL) phase.
 
 Building upon the knowledge gained from IL and armed with the LSTM's predictive power, our agent was unleashed into the simulated storms. Through millions of trials and errors, guided by carefully crafted reward functions (where successful maneuvers earned "points" and errors incurred "penalties"), the AI began to discover novel control strategies. It learned to anticipate the ship's violent pitches and rolls, to compensate for sudden wind gusts, and to execute landings with a precision and resilience that surpassed even the most seasoned human pilots. The agent wasn't just mimicking; it was innovating, finding optimal solutions in scenarios where human intuition might falter. It learned to dance with the waves, not just fight them.
 
@@ -117,7 +117,7 @@ Enhanced Safety: Minimizes human exposure to hazardous flight deck environments.
 
 Precision Landing: Utilizes LSTM for accurate prediction of ship quiescent periods, optimizing touchdown timing.
 
-"Beyond Human" Capabilities: Achieves superior performance in Sea State 6.5-7 through advanced RL.
+Achieve superior performance in Sea State 6.5-7 through advanced RL.
 
 Robustness: Combines Imitation Learning for foundational skills with Reinforcement Learning for adaptability.
 
@@ -178,14 +178,14 @@ Multi-Agent Coordination: Exploring scenarios involving multiple autonomous airc
 Long-Term Autonomy: Researching methods for continuous learning and adaptation in operational environments.
 
 8. Contributing
-We welcome contributions to the AMPLS project! If you're interested in improving the simulation, enhancing the AI models, or exploring new features, please refer to our(CONTRIBUTING.md) for guidelines.
+I welcome contributions to the AMPLS project! If you're interested in improving the simulation, enhancing the AI models, or exploring new features, please refer to our(CONTRIBUTING.md) for guidelines.
 
 9. License
-This project is licensed under the(LICENSE) 
+
 
 10. Contact
 For any inquiries or collaborations, please reach out to:
 
-Your Name/Team Name:
+My Name: Mandar Kulkarni
 
-LinkedIn (Optional): [www.linkedin.com/in/mandar-kulkarni-78474918a]
+LinkedIn: [www.linkedin.com/in/mandar-kulkarni-78474918a]
