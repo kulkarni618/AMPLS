@@ -136,6 +136,11 @@ To run the AMPLS simulation environment and observe the autonomous landing agent
 
 Prerequisites:
 
+Need a descently high config machine atleast 16gb ram i7  13gen cpu or higher nvidia 3000 or 4000 series gpu with min 6gb ram.
+current simulation was done on Lenovo legion laptop.
+(note - I would recommend using nvidia gpu as mlagents and most ML libraries are more 
+compatible with Cuda cores.) 
+
 Unity Hub and Unity Editor (Version 6)
 
 Mlagents version 2.1.1
