@@ -55,7 +55,7 @@ In such conditions, the ship's flight deck becomes a violently pitching, rolling
 
 My audacious goal with AMPLS was to develop an autonomous system that could not only match, but surpass human precision, ensuring safe landings even when conditions render human intervention too risky. Although in Defence world even though how good ai is end descision is taken by a human, so this system ai + human together will give best results as this system is made to make landings way easier, like you have ai there to help pilot in that situation.
 
-3. Our Solution: AMPLS
+3.Solution: AMPLS
 AMPLS addresses these challenges by integrating advanced AI models into a robust simulation environment. My system learns to predict ship movements, identify optimal landing windows, and execute, stable touchdowns, all while adapting to the chaotic dynamics of the open ocean.
 
 4. Technical Deep Dive
