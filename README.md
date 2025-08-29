@@ -13,7 +13,7 @@ Table of Contents
 
 2. (#2-the-challenge-conquering-the-high-seas)
 
-3. (#3-our-solution-ampls)
+3. (#3-my-solution-ampls)
 
 4. (#4-technical-deep-dive)
 
