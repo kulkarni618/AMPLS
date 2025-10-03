@@ -1,5 +1,5 @@
 # AMPLS
-AMPLS: Autonomous helicopter landing on naval vessels in severe sea states (6.5-7). Built in Unity 3D with ML-Agents (IL/RL), it uses LSTM for ship motion prediction &amp; quiescent periods, ensuring precise 3-point touchdowns. Models exported in ONNX for real-world integration. Revolutionizing maritime safety.
+AMPLS: Autonomous helicopter landing on naval vessels in severe sea states (6.5-7). Built in Unity 3D with ML-Agents (IL/RL), it uses LSTM for ship motion prediction &amp; quiescent periods, ensuring precise touchdowns. Models exported in ONNX for real-world integration. Revolutionizing maritime safety.
 
 # Autonomous Maritime Precision Landing System (AMPLS)
 
@@ -26,8 +26,6 @@ Learning Paradigms with ML-Agents
 Imitation Learning (IL)
 
 (#reinforcement-learning-rl)
-
-(#44-the-critical-touchdown-ensuring-a-three-point-landing)
 
 Model Export: ONNX Format
 
@@ -89,24 +87,6 @@ However, to truly achieve autonomous capabilities in Sea State 6.5-7, mere imita
 Building upon the knowledge gained from IL and armed with the LSTM's predictive power, our agent was unleashed into the simulated storms. Through millions of trials and errors, guided by carefully crafted reward functions (where successful maneuvers earned "points" and errors incurred "penalties"), the AI began to discover novel control strategies. It learned to anticipate the ship's violent pitches and rolls, to compensate for sudden wind gusts, and to execute landings with a precision and resilience that surpassed even the most seasoned human pilots. The agent wasn't just mimicking; it was innovating, finding optimal solutions in scenarios where human intuition might falter. It learned to dance with the waves, not just fight them.
 
 
-
-4.4. The Critical Touchdown: Ensuring a Three-Point Landing
-The final moments of a helicopter landing are arguably the most critical. Unlike fixed-wing aircraft, helicopters often have three landing gear points (typically two main gears and one nose/tail gear). For a safe and stable landing, it is absolutely imperative that all three landing gears touch down simultaneously and level.
-
-An uneven touchdown, even by a fraction of a second or a slight tilt, can lead to severe and potentially catastrophic problems:
-
-Tail Rotor Strike: If the helicopter's nose pitches forward due to an uneven main gear touchdown, the tail rotor, which is often the lowest point at the rear, can strike the deck. This can cause immediate and severe damage to the helicopter, leading to a loss of control and a forward pitching moment of the nose.
-
-Instability and Rollover: Landing with one or two gears touching first can create an unstable pivot point. In the dynamic environment of a moving ship deck, this instability is greatly amplified, increasing the risk of the helicopter tipping over or rolling, especially if there's any sideward movement.
-
-Structural Damage: The landing gear is designed to absorb the energy of touchdown when the force is distributed evenly. An uneven landing concentrates immense stress on a single gear or a limited part of the airframe, potentially leading to gear collapse, structural damage, or even a "gear-up" or "partially extended" landing scenario.
-
-Loss of Control: Any damage or instability upon touchdown can quickly escalate into a loss of control, endangering both the aircraft and personnel on deck.
-
-AMPLS's advanced control algorithms, meticulously informed by the LSTM's predictions and refined through RL, are specifically designed to ensure this perfect, three-point touchdown, minimizing stress on the airframe and maximizing safety.
-
-
-
 4.5. Model Export: ONNX Format
 The culmination of this intensive training is AMPLS: a robust, intelligent agent capable of navigating the most treacherous maritime conditions. To ensure its real-world applicability and efficient deployment, the trained AI model is then exported into the industry-standard ONNX (Open Neural Network Exchange) format. This allows for seamless integration into various hardware platforms, paving the way for future real-world testing and eventual operational use, ensuring that our research can transition from simulation to practical application.
 
@@ -123,7 +103,7 @@ Achieve superior performance in Sea State 6.5-7 through advanced RL.
 
 Robustness: Combines Imitation Learning for foundational skills with Reinforcement Learning for adaptability.
 
-Critical Touchdown Assurance: Ensures simultaneous, level three-point landing gear touchdown to prevent damage and instability.
+Critical Touchdown Assurance: Ensures simultaneous, level landing gear touchdown to prevent damage and instability.
 
 High-Fidelity Simulation: Developed and tested in a realistic Unity 3D environment.
 
